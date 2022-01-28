@@ -34,7 +34,7 @@ const Header = () => {
           <p>{data.headerParagraph}</p>
           <a
             href={`mailto:${
-              data.contactEmail ? data.contactEmail : "hello@Blakeverma.com"
+              data.contactEmail ? data.contactEmail : "hello@BlakeEriks.com"
             }`}
             className="primary-btn"
           >
