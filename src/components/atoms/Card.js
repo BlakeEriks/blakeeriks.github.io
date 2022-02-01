@@ -6,13 +6,13 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       className="card"
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
+          "linear-gradient(to bottom, rgba(129, 196, 224, 0.2), rgba(0, 0, 0, 0.2)), url(" +
           imgUrl +
           ")",
       }}
     >
       <div className="content">
-        <h1 className="header">{heading}</h1>
+        <h1>{heading}</h1>
         <p className="text">{paragraph}</p>
         <a
           href={projectLink ? projectLink : "#"}
