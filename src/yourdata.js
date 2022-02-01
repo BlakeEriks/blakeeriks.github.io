@@ -1,15 +1,17 @@
 // Skills Icons
 import codeIcon from "./images/code.svg"
-import codepenIcon from "./images/codepen.svg"
 import cssIcon from "./images/css.svg"
 import designIcon from "./images/design.svg"
-import dribbbleIcon from "./images/dribbble.svg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 import htmlIcon from "./images/html.svg"
 import instagramIcon from "./images/instagram.svg"
 import jsIcon from "./images/javascript.svg"
 import reactIcon from "./images/react.svg"
+import twitterIcon from "./images/twitter.svg"
+import linkedInIcon from "./images/linkedin.svg"
+import stylitImg from "./images/stylit.png"
+import gif from "./images/demo.gif"
 
 
 export default {
@@ -20,81 +22,62 @@ export default {
   name: "Blake",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "A digital native building",
     //Line 2 For Header
-    "products, brands,",
+    "the future of our interactions",
     //Line 3 For Header
-    "and experience",
+    "with technology",
   ],
   //   Header Paragraph
   headerParagraph:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
-  contactEmail: "hello@BlakeEriks.com",
+  contactEmail: "blakeeriks.dev@gmail.com",
 
   // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
+      title: "💄Stylit",
+      para: "Platform for creating and discovering CSS-styled HTML components",
+      imageSrc: gif,
       url: "http://BlakeEriks.com/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      title: "Project Two",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
         "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
       url: "http://BlakeEriks.com/",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      title: "Project Three",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
         "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
       url: "http://BlakeEriks.com/",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      title: "Project Four",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
         "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
       url: "http://BlakeEriks.com/",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      title: "Project Five",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
         "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
       url: "http://BlakeEriks.com/",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      title: "Project Six",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
       imageSrc:
         "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
       url: "http://BlakeEriks.com/",
     },
 
@@ -174,18 +157,21 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/BlakeEriks16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+    { 
+      img: githubIcon, 
+      url: "https://github.com/BlakeEriks" 
     },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/BlakeEriks",
+    { 
+      img: twitterIcon, 
+      url: "https://twitter.com/blakeeriks" 
+    },
+    { 
+      img: linkedInIcon, 
+      url: "https://www.linkedin.com/in/blake-eriks/" 
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/blakeeriks",
     },
   ],
 
