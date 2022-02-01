@@ -3,21 +3,31 @@
   height: 250px;
   overflow: hidden !important;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
+  &:hover .content{
+    opacity: 1;
+    transform: translate(0, 0px);
+  }
+
   .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: "Open Sans";
     text-align: center;
     padding: 10px;
     opacity: 0;
-    transition: all 500ms ease-in-out;
+    transition: all 300ms ease-in-out;
     transform: translate(0, 20px);
-    cursor: pointer;
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.2) 80%, transparent);
+
     h1 {
+      background: black;
       font-size: 14px;
       color: white;
     }
@@ -32,10 +42,6 @@
       color: white;
       padding: 10px;
       text-decoration: none;
-    }
-    &:hover {
-      opacity: 1;
-      transform: translate(0, 0px);
     }
   }
 }

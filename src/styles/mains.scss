@@ -14,8 +14,13 @@
 @import "./promotion.scss";
 @import "./footer.scss";
 
+:root {
+  --accent: rgb(129, 196, 224);
+}
+
 * {
   font-family: "Montserrat";
+  box-sizing: border-box;
 }
 
 body {
@@ -23,10 +28,21 @@ body {
   padding: 0;
   overflow-y: scroll;
   overflow-x: hidden;
+  background: black;
+  color: white;
+}
+
+.global-container {
+  // background: #303030;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section {
-  width: 100vw;
+  width: 100%;
   height: auto;
   overflow: hidden;
 }
@@ -43,7 +59,7 @@ body {
 .primary-btn {
   margin: 10px;
   padding: 10px;
-  background-color: black;
+  background-color: var(--accent);
   color: white;
   border: 0px;
   transition: all 0.2s ease-in-out;
@@ -52,4 +68,8 @@ body {
   &:hover {
     transform: scale(1.1);
   }
+}
+
+.accent {
+  color: var(--accent);
 }
