@@ -1,13 +1,22 @@
-import React from "react"
+import React, { useEffect } from "react"
 import data from "../yourdata"
 import heroImg from "../images/hero.jpg"
+import mobileHeroImg from "../images/mobile-hero.png"
+import useWindowDimensions from "../util/useWindowDimensions"
 
 const Header = () => {
+
+  const {isMobile} = useWindowDimensions()
+
   return (
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <img src={heroImg} className="hero-img"/>
+          { isMobile ? 
+            <img src={mobileHeroImg} className="hero-img"/>
+          :
+            <img src={heroImg} className="hero-img"/>
+          }
           <div className="img-overlay"></div>
           <div className="heading-wrapper">
             <h2>
