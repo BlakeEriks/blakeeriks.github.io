@@ -3,12 +3,12 @@ import data from "../yourdata"
 
 const Projects = () => {
   return (
-    <div className="section" id="work">
+    <div className="section" id="projects">
       <div className="container">
         <div className="projects-wrapper">
-          <h1 id="projects">Projects</h1>
+          <h1>Projects</h1>
           {data.projects.map(({title, para, img, tools, url, repo, blog}, index) => (
-            <div className="project">
+            <div className="project" key={index}>
               <div className="details">
                 <h2>
                   {title}
@@ -19,7 +19,7 @@ const Projects = () => {
                 </h3>
                 <div className="tools">
                   {tools.map( (tool, index) => (
-                    <div className="tool">
+                    <div className="tool" key={index}>
                       {tool + (index !== tools.length - 1 ? " |" : "")}&nbsp;
                     </div>
                   ))}
