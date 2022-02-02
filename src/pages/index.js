@@ -13,11 +13,11 @@ import Projects from "../components/Projects"
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <Header></Header>
-    <Projects></Projects>
-    <About></About>
-    <Skills></Skills>
-    <Footer></Footer>
+    <Header />
+    <Projects />
+    <About />
+    <Skills />
+    <Footer />
   </Layout>
 )
 
