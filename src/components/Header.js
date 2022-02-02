@@ -18,15 +18,13 @@ const Header = () => {
             </h2>
             <div className="heading-main">
               <h1>
-                {data.headerTagline[0]}
+                &nbsp;{data.headerTagline[0]}&nbsp;
               </h1>
               <h1>
-                {" "}
-                {data.headerTagline[1]}
+                &nbsp;{data.headerTagline[1]}&nbsp;
               </h1>
               <h1>
-                {" "}
-                {data.headerTagline[2]}
+                &nbsp;{data.headerTagline[2]}&nbsp;
               </h1>
             </div>
             <a
