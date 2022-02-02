@@ -10,9 +10,10 @@ import jsIcon from "./images/javascript.svg"
 import reactIcon from "./images/react.svg"
 import twitterIcon from "./images/twitter.svg"
 import linkedInIcon from "./images/linkedin.svg"
-import stylitImg from "./images/stylit.png"
-import gif from "./images/demo.gif"
-
+import stylit from "./images/stylit.png"
+import bitsi from "./images/bitsi.png"
+import poddle from "./images/poddle.png"
+import profile from "./images/profile.jpg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -41,45 +42,50 @@ export default {
   projects: [
     {
       title: "💄Stylit",
-      para: "Platform for creating and discovering CSS-styled HTML components",
-      imageSrc: gif,
-      url: "http://BlakeEriks.com/",
+      para: "Developer platform for creating, discovering and saving CSS-styled HTML components",
+      img: stylit,
+      tools: ["React", "NextJS", "TypeScript", "TailwindCSS", "MongoDB Cloud", "Firebase"],
+      url: "https://stylit.netlify.app/",
+      repo: "https://github.com/BlakeEriks/stylit",
+      blog: "https://blog.blakeeriks.dev/introducing-stylit"
     },
     {
-      title: "Project Two",
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://BlakeEriks.com/",
+      title: "🕷️Bitsi",
+      para: "Simulated exchange app where users can invest an imaginary million dollars 💸 into a variety of crypto assets",
+      img: bitsi,
+      tools: ["React", "Express", "Styled-components", "MongoDB Cloud", "Nivo"],
+      url: "https://bitsi.netlify.app/",
+      repo: "https://github.com/BlakeEriks/bitsi",
     },
     {
-      title: "Project Three",
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://BlakeEriks.com/",
+      title: "🎵Poddle",
+      para: "Podcast discovery tool for finding and saving podcasts based on the users' genres of interest",
+      img: poddle,
+      tools: ["React", "Ruby on Rails", "TailwindCSS", "Listen Notes"],
+      url: "https://poddle.netlify.app/",
+      repo: "https://github.com/BlakeEriks/poddle",
     },
-    {
-      title: "Project Four",
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://BlakeEriks.com/",
-    },
-    {
-      title: "Project Five",
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://BlakeEriks.com/",
-    },
-    {
-      title: "Project Six",
-      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://BlakeEriks.com/",
-    },
+    // {
+    //   title: "Project Four",
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    //   url: "http://BlakeEriks.com/",
+    // },
+    // {
+    //   title: "Project Five",
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    //   url: "http://BlakeEriks.com/",
+    // },
+    // {
+    //   title: "Project Six",
+    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+    //   url: "http://BlakeEriks.com/",
+    // },
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
@@ -101,8 +107,7 @@ export default {
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  aboutImage: profile,
 
   //   End About Section ---------------------
 
