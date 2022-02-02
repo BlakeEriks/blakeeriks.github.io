@@ -7,17 +7,16 @@ import Layout from "../components/layout"
 import Promotion from "../components/Promotion"
 import SEO from "../components/seo"
 import Skills from "../components/skills"
-import Work from "../components/Work"
+import Projects from "../components/Projects"
 
 
 const IndexPage = () => (
   <Layout>
     <SEO />
     <Header></Header>
-    <Work></Work>
+    <Projects></Projects>
     <About></About>
     <Skills></Skills>
-    <Promotion></Promotion>
     <Footer></Footer>
   </Layout>
 )
