@@ -26,9 +26,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 75%;
+    width: 100%;
     height: 100%;
     padding: 20px 20px;
+
+    @include media("<tablet") {
+      justify-content: space-between;
+      padding: 60px 20px;
+    }
+
+    @include media(">=tablet") {
+      width: 75%;
+    }
 
     .heading-main {
       display: flex;
@@ -38,17 +47,24 @@
         background: black;
         margin: 10px 0;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
+
         @include media(">=phone", "<lgphone") {
+          font-size: 1rem;
+          line-height: 10px;
+          margin: 3px 0;
+          padding: 10px 0;
+        }
+
+        @include media(">=lgphone", "<desktop") {
           font-size: 1.5rem;
           line-height: 10px;
+          margin: 3px 0;
+          padding: 10px 0;
         }
-        @include media(">=lgphone", "<tablet") {
-          font-size: 1.5rem;
-          line-height: 10px;
-        }
-        @include media(">=tablet", "<desktop") {
-          font-size: 2.5rem;
+
+        @include media(">=desktop", "<smdesktop") {
+          font-size: 2rem;
         }
       }
     }
@@ -58,13 +74,13 @@
       margin: 0;
       text-align: center;
       @include media(">=phone", "<lgphone") {
-        font-size: 14px;
+        font-size: 1.5rem;
       }
       @include media(">=lgphone", "<tablet") {
-        font-size: 16px;
+        font-size: 1.5rem;
       }
       @include media(">=tablet", "<desktop") {
-        font-size: 16px;
+        font-size: 1.5rem;
       }
     }
 

@@ -10,8 +10,9 @@
   }
 
   .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 50px;
     grid-gap: 20px;
     @include media(">=phone", "<lgphone") {
@@ -25,14 +26,18 @@
     }
     .skill {
       display: flex;
+      background: var(--gray);
       flex-direction: column;
       align-items: center;
       text-align: center;
+      padding: 10px;
+      border-radius: 10px;
       img {
         height: 3rem;
       }
       p {
         font-size: 14px;
+        margin-bottom: 0;
       }
     }
   }

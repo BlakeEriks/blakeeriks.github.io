@@ -1,7 +1,8 @@
 .footer-container {
-  width: 80vw;
+  width: 100vw;
+  background: var(--accent);
   margin-top: 10vh;
-  margin-bottom: 10vh;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +32,7 @@
     align-items: center;
     background: white;
     margin-top: 20px;
-    img {
+    img, svg {
       height: 2rem;
       margin: 10px 10px 6px 10px;
     }
