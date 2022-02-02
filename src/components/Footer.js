@@ -1,4 +1,5 @@
 import React from "react"
+import { FaEnvelope } from "react-icons/fa"
 import data from "../yourdata"
 
 const Footer = () => {
@@ -7,7 +8,6 @@ const Footer = () => {
       <div className="container">
         <div className="footer-container">
           <h1>Contact</h1>
-          <h2>{data.contactSubHeading}</h2>
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}
           </a>
@@ -24,7 +24,7 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            Made With <icon>❤</icon> by{" "}
+            Made With ❤ by{" "}
             <a href="https://www.BlakeEriks.dev/">Blake Eriks</a>
           </span>
         </div>
