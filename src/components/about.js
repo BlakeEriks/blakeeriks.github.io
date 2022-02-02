@@ -5,8 +5,8 @@ import resume from "../static/resume.pdf"
 
 const About = () => {
   return (
-    <div className="secion" id="about">
-      <div className="container">
+    <div className="section" id="about">
+      <div className="container variant">
         <div className="about-section">
           <div className="content-wrapper">
             <div className="header">
