@@ -2,20 +2,19 @@
 @import "./include-media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 
-// Atoms
-@import "./card.scss";
-
 // Components
 @import "./navbar.scss";
 @import "./header.scss";
-@import "./work.scss";
+@import "./projects.scss";
 @import "./about.scss";
 @import "./skills.scss";
 @import "./promotion.scss";
 @import "./footer.scss";
 
 :root {
-  --accent: rgb(129, 196, 224);
+  --primary: rgb(39, 10, 3);
+  --accent: #81c4e0;
+  --gray: #343539;
 }
 
 * {
@@ -33,7 +32,6 @@ body {
 }
 
 .global-container {
-  // background: #303030;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
