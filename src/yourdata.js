@@ -20,7 +20,7 @@ export default {
   name: "Blake",
   headerTagline: [
     //Line 1 For Header
-    "A digital native building",
+    "A full stack developer building",
     //Line 2 For Header
     "the future of our interactions",
     //Line 3 For Header
