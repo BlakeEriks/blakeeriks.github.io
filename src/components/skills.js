@@ -8,10 +8,10 @@ const Skills = () => {
         <div className="skills-container">
           <h1>Skills</h1>
           <div className="skills-grid">
-            {data.skills.map((skill, index) => (
+            {data.skills.map(({img, para}, index) => (
               <div className="skill" key={index}>
-                <img src={skill.img} alt="css"></img>
-                <p>{skill.para}</p>
+                <img src={img} alt="css"></img>
+                <p>{para}</p>
               </div>
             ))}
           </div>
