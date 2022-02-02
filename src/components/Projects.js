@@ -8,7 +8,13 @@ const Projects = () => {
         <div className="projects-wrapper">
           <h1>Projects</h1>
           {data.projects.map(({title, para, img, tools, url, repo, blog}, index) => (
-            <div className="project" key={index}>
+            <div 
+              className="project"
+              key={index}
+              data-sal="slide-left"
+              data-sal-delay="300"
+              data-sal-duration="500"
+            > 
               <div className="details">
                 <h2>
                   {title}
