@@ -1,19 +1,16 @@
-// Skills Icons
-import codeIcon from "./images/code.svg"
-import cssIcon from "./images/css.svg"
-import designIcon from "./images/design.svg"
-// Social Icon
-import githubIcon from "./images/github.svg"
-import htmlIcon from "./images/html.svg"
-import instagramIcon from "./images/instagram.svg"
-import jsIcon from "./images/javascript.svg"
-import reactIcon from "./images/react.svg"
-import twitterIcon from "./images/twitter.svg"
-import linkedInIcon from "./images/linkedin.svg"
+import cssIcon from "./images/logos/css.svg"
+import githubIcon from "./images/logos/github.svg"
+import htmlIcon from "./images/logos/html.svg"
+import instagramIcon from "./images/logos/instagram.svg"
+import jsIcon from "./images/logos/javascript.svg"
+import reactIcon from "./images/logos/react.svg"
+import twitterIcon from "./images/logos/twitter.svg"
+import linkedInIcon from "./images/logos/linkedin.svg"
 import stylit from "./images/stylit.png"
 import bitsi from "./images/bitsi.png"
 import poddle from "./images/poddle.png"
 import profile from "./images/profile.jpg"
+import { FaCss3, FaEnvelope, FaHtml5, FaJs, FaReact } from "react-icons/fa"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -117,49 +114,108 @@ export default {
 
   skills: [
     {
-      img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png",
+      para: "HTML",
     },
     {
-      img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/726px-CSS3_logo_and_wordmark.svg.png",
+      para: "CSS",
     },
     {
-      img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      para: "JS",
     },
     {
-      img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png",
+      para: "React",
     },
     {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png",
+      para: "TypeScript",
     },
     {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/414px-Nextjs-logo.svg.png",
+      para: "NextJS",
     },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/640px-Ruby_On_Rails_Logo.svg.png",
+      para: "Ruby on Rails",
+    },
+    {
+      img: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png",
+      para: "Java",
+    },
+    {
+      img: "https://i.pinimg.com/736x/a2/dc/32/a2dc3249364449a49f01a6275d277b8c.jpg",
+      para: "C++",
+    },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png",
+      para: "Python",
+    },
+    {
+      img: "https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg",
+      para: "Bootstrap",
+    },
+    {
+      img: "https://www.netgains.org/wp-content/uploads/2014/01/node_js.png",
+      para: "Node",
+    },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+      para: "Express",
+    },
+    {
+      img: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+      para: "MongoDB",
+    },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+      para: "SQL",
+    },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+      para: "PostgreSQL",
+    },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+      para: "GitHub",
+    },
+    {
+      img: "https://cdn-icons-png.flaticon.com/512/873/873120.png",
+      para: "Heroku",
+    },
+    {
+      img: "https://media.zeemly.com/media/product/vercel.png",
+      para: "Vercel",
+    },
+    {
+      img: "https://www.netlify.com/v3/img/components/logomark.png",
+      para: "Netlify",
+    },
+    {
+      img: "http://assets.stickpng.com/images/5fb6d3336e2d460004a5e31f.png",
+      para: "Notion",
+    },
+    {
+      img: "https://logos-world.net/wp-content/uploads/2021/02/Trello-Emblem.png",
+      para: "Trello",
+    },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/en/9/9f/2015_Final_Cut_Pro_Logo.png",
+      para: "Final Cut Pro",
+    },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/1200px-Adobe_Photoshop_Lightroom_CC_logo.svg.png",
+      para: "Adobe Lightroom",
+    },
+
   ],
 
   // End Skills Section --------------------------
 
-  //   Promotion Section --------------------------
-
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
-
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
     { 
