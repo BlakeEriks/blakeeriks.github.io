@@ -14,7 +14,7 @@ const Navbar = () => {
             Blake <span className="accent">Eriks</span>
           </div>
           <div className="links-wrapper">
-            <button onClick={() => scrollTo("#work")}>Work</button>
+            <button onClick={() => scrollTo("#projects")}>Projects</button>
             <button onClick={() => scrollTo("#about")}>About</button>
             <button onClick={() => scrollTo("#contact")}>Contact</button>
           </div>
