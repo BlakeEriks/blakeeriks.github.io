@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import data from "../yourdata"
-import heroImg from "../images/hero.jpg"
+import heroImg from "../images/hero.png"
 import mobileHeroImg from "../images/mobile-hero.png"
 import useWindowDimensions from "../util/useWindowDimensions"
 
