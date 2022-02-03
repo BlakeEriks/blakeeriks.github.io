@@ -12,7 +12,7 @@ const Projects = () => {
               className="project"
               key={index}
               data-sal="slide-left"
-              data-sal-delay="300"
+              data-sal-delay="100"
               data-sal-duration="500"
             > 
               <div className="details">
@@ -60,7 +60,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="img-wrapper">
-                <img src={img}/>
+                <img src={img} alt="project"/>
               </div>
             </div>
           ))}
