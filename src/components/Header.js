@@ -1,8 +1,8 @@
-import React, { useEffect } from "react"
-import data from "../yourdata"
+import React from "react"
 import heroImg from "../images/hero.png"
 import mobileHeroImg from "../images/mobile-hero.png"
 import useWindowDimensions from "../util/useWindowDimensions"
+import data from "../yourdata"
 
 const Header = () => {
 
@@ -13,9 +13,9 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           { isMobile ? 
-            <img src={mobileHeroImg} className="hero-img"/>
+            <img src={mobileHeroImg} className="hero-img" alt="hero"/>
           :
-            <img src={heroImg} className="hero-img"/>
+            <img src={heroImg} className="hero-img" alt="hero"/>
           }
           <div className="img-overlay"></div>
           <div className="heading-wrapper">

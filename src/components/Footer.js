@@ -1,5 +1,4 @@
 import React from "react"
-import { FaEnvelope } from "react-icons/fa"
 import data from "../yourdata"
 
 const Footer = () => {

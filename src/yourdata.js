@@ -1,18 +1,13 @@
-import cssIcon from "./images/logos/css.svg"
-import githubIcon from "./images/logos/github.svg"
-import htmlIcon from "./images/logos/html.svg"
-import instagramIcon from "./images/logos/instagram.svg"
-import jsIcon from "./images/logos/javascript.svg"
-import reactIcon from "./images/logos/react.svg"
-import twitterIcon from "./images/logos/twitter.svg"
-import linkedInIcon from "./images/logos/linkedin.svg"
-import stylit from "./images/stylit.png"
 import bitsi from "./images/bitsi.png"
+import githubIcon from "./images/logos/github.svg"
+import instagramIcon from "./images/logos/instagram.svg"
+import linkedInIcon from "./images/logos/linkedin.svg"
+import twitterIcon from "./images/logos/twitter.svg"
 import poddle from "./images/poddle.png"
 import profile from "./images/profile.jpg"
-import { FaCss3, FaEnvelope, FaHtml5, FaJs, FaReact } from "react-icons/fa"
+import stylit from "./images/stylit.png"
 
-export default {
+const data = {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
@@ -240,3 +235,4 @@ export default {
 }
 
 // Thanks for using this template, I would love to hear from you contact me at hello@BlakeEriks.com
+export default data

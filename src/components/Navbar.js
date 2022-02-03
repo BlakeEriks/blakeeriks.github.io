@@ -1,5 +1,6 @@
 import scrollTo from "gatsby-plugin-smoothscroll"
 import React from "react"
+
 const Navbar = () => {
   return (
     <div className="section">
