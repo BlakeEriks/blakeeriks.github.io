@@ -15,15 +15,12 @@ const data = {
   name: "Blake",
   headerTagline: [
     //Line 1 For Header
-    "A full stack developer building",
+    "A fullstack developer",
     //Line 2 For Header
-    "the future of our interactions",
+    "ready to take your project",
     //Line 3 For Header
-    "with technology",
+    "to the next level",
   ],
-  //   Header Paragraph
-  headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
   //Contact Email
   contactEmail: "blakeeriks.dev@gmail.com",
@@ -57,37 +54,6 @@ const data = {
       url: "https://poddle.netlify.app/",
       repo: "https://github.com/BlakeEriks/poddle",
     },
-    // {
-    //   title: "Project Four",
-    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    //   imageSrc:
-    //     "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-    //   url: "http://BlakeEriks.com/",
-    // },
-    // {
-    //   title: "Project Five",
-    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    //   imageSrc:
-    //     "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-    //   url: "http://BlakeEriks.com/",
-    // },
-    // {
-    //   title: "Project Six",
-    //   para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    //   imageSrc:
-    //     "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-    //   url: "http://BlakeEriks.com/",
-    // },
-
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
   // End Work Section -----------------------
