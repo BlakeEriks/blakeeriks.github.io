@@ -56,7 +56,11 @@ const SEO = () => {
         },
         {
           name: `twitter:card`,
-          content: description,
+          content: 'summary_large_image',
+        },
+        {
+          name: `twitter:site`,
+          content: author,
         },
         {
           name: `twitter:creator`,
@@ -69,6 +73,10 @@ const SEO = () => {
         {
           name: `twitter:description`,
           content: description,
+        },
+        {
+          name: `twitter:image`,
+          content: `https://i.imgur.com/W18Rszo.jpg`,
         },
       ]}
     />
