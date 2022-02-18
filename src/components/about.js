@@ -1,7 +1,7 @@
 import React from "react"
 import data from "../yourdata"
 import { FaGraduationCap, FaSuitcase, FaRegListAlt } from "react-icons/fa";
-import resume from "../static/resume.pdf"
+import resume from "../static/Blake_Eriks_2022.pdf"
 
 const About = () => {
   return (
